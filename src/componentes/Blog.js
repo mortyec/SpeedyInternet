@@ -5,68 +5,64 @@ function Blog() {
 
     return (
         <>
-        <div className="texto arriba">
-          Speedy Blog's
-        </div>
-        <br/>
-            <div className='blogContenedor'>
-                <div class="blog-card spring-fever">
-                    <div class="title-content">
-                        <h3><a href="#">10 inspiring photos</a></h3>
-                        <div class="intro"> <a href="#">Inspiration</a> </div>
+            <div className="texto arriba">
+                Speedy Blog's
+            </div>
+            <br />
+            <div className='contenedorBlog'>
+                <div class="rowBlog">
+                    <div class="example-1 card">
+                        <div class="wrapper">
+                            <div class="date">
+                                <span class="day">20</span>
+                                <span class="month">Abr</span>
+                                <span class="year">2023</span>
+                            </div>
+                            <div class="data">
+                                <div class="content">
+                                <span class="author">Speedy</span>
+                                    <h1 class="title"><a href="#">Speedy inauguró su Centro de Monitoreo y Gestión de Atención al Cliente.</a></h1>
+                                    <p class="text">Speedy, la empresa proveedora de Internet líder en el centro del país, inauguró en febrero</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-info">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim...
-                        <a href="#">Read Article<span class="licon icon-arr icon-black"></span></a>
+                    <div class="example-2 card">
+                        <div class="wrapper">
+                            <div class="header">
+                                <div class="date">
+                                    <span class="day">20 Abr 2023</span>
+                                </div>
+                            </div>
+                            <div class="data">
+                                <div class="content">
+                                    <span class="author">Speedy</span>
+                                    <h1 class="title"><a href="#">Speedy inauguró su Centro de Monitoreo y Gestión de Atención al Cliente.</a></h1>
+                                    <p class="text">Speedy, la empresa proveedora de Internet líder en el centro del país, inauguró en febrero.</p>
+                                    <a href="#" class="button">Leer más</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="utility-info">
-                        <ul class="utility-list">
-                            <li><span class="licon icon-dat"></span>03 jun 2017</li>
-                            <li><span class="licon icon-tag"></span><a href="#">Photos</a>, <a href="#">Nice</a></li>
-                        </ul>
+                    <div class="example-1 card">
+                        <div class="wrapper">
+                            <div class="date">
+                                <span class="day">20</span>
+                                <span class="month">Abr</span>
+                                <span class="year">2023</span>
+                            </div>
+                            <div class="data">
+                                <div class="content">
+                                <span class="author">Speedy</span>
+                                    <h1 class="title"><a href="#">Speedy inauguró su Centro de Monitoreo y Gestión de Atención al Cliente.</a></h1>
+                                    <p class="text">Speedy, la empresa proveedora de Internet líder en el centro del país, inauguró en febrero</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="gradient-overlay"></div>
-                    <div class="color-overlay"></div>
                 </div>
-                <div class="blog-card spring-fever">
-                    <div class="title-content">
-                        <h3><a href="#">10 inspiring photos</a></h3>
-                        <div class="intro"> <a href="#">Inspiration</a> </div>
-                    </div>
-                    <div class="card-info">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim...
-                        <a href="#">Read Article<span class="licon icon-arr icon-black"></span></a>
-                    </div>
-                    <div class="utility-info">
-                        <ul class="utility-list">
-                            <li><span class="licon icon-dat"></span>03 jun 2017</li>
-                            <li><span class="licon icon-tag"></span><a href="#">Photos</a>, <a href="#">Nice</a></li>
-                        </ul>
-                    </div>
-                    <div class="gradient-overlay"></div>
-                    <div class="color-overlay"></div>
-                </div>
-                <div class="blog-card spring-fever">
-                    <div class="title-content">
-                        <h3><a href="#">10 inspiring photos</a></h3>
-                        <div class="intro"> <a href="#">Inspiration</a> </div>
-                    </div>
-                    <div class="card-info">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim...
-                        <a href="#">Read Article<span class="licon icon-arr icon-black"></span></a>
-                    </div>
-                    <div class="utility-info">
-                        <ul class="utility-list">
-                            <li><span class="licon icon-dat"></span>03 jun 2017</li>
-                            <li><span class="licon icon-tag"></span><a href="#">Photos</a>, <a href="#">Nice</a></li>
-                        </ul>
-                    </div>
-                    <div class="gradient-overlay"></div>
-                    <div class="color-overlay"></div>
-                </div>
-                
-            </div>        
-            </>
+            </div>
+        </>
     );
 }
 
