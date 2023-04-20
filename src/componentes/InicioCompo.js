@@ -5,9 +5,9 @@ function InicioCompo() {
     <>
       <div className="full-width-image">
         <div className="izquierdaBanner">
-          <div className="imagenIzquierdaComtenedor">
+         {/*  <div className="imagenIzquierdaComtenedor">
             <img src="./img/Inicio/icoWifi.png" />
-          </div>
+          </div> */}
           <div className="textoContenedorIzquierda">
             <div className="textoIz1">
               <p>Speedy Fibra</p>
@@ -34,20 +34,20 @@ function InicioCompo() {
       </div>
       <div class="link-container">
         <a href="./#" class="link medios">
-          <img src="./img/Inicio/internethogaractive.svg" alt="Imagen 1" />
+          <img src="./img/Inicio/internethogaractive.png" alt="Imagen 1" />
           Internet Hogar
-        </a>
-        <a href="./corporativo" class="link medios dos">
-          <img src="./img/Inicio/internet2.svg" alt="Imagen 2" />
-         Internet Corporativo
         </a>
         <a href="./streaming" class="link medios tres">
           <img src="./img/Inicio/internet4.png" alt="Imagen 3" />
-          Streaming
+          Speedy Tv
         </a>
-        <a href="./dual" class="link ultimo">
+        <a href="./dual" class="link medios dos">
           <img src="./img/Inicio/internet3.png" alt="Imagen 4" />
           Dual Pack
+        </a>
+        <a href="./corporativo" class="link ultimo">
+          <img src="./img/Inicio/internet2.png" alt="Imagen 2" />
+         Internet Corporativo
         </a>
       </div>
       <div className="texto arriba">
@@ -63,8 +63,8 @@ function InicioCompo() {
             <div className="normal">Internet</div><div className="negrita">Fibra</div>
           </div>
           <div className="primeraFila"><div className="negrita">200 Megas</div></div><br/>
-          <div className="primeraFila"><div className="precio">$22.50/mes</div></div><br/>
-          <div className="capsulaPlan"><div className="capsulaColor">25% dcto.</div><div className="capsulaSinColor"> Oferta Online</div></div><br/>
+          <div className="primeraFila"><div className="precio">$22.50/</div><div className="mes">mes</div></div><br/>
+          <img className="descuentoimg" src="./img/Planes/descuento.png"/>
           <div className="primeraFila">Por 4 meses, luego<div className="negritaPeque">$30.00/mes</div><br /></div><br />
           <div className="primeraFila"><img src="./img/Planes/iconoPlanes1y3.png" />Router 4 antenas WI-FI 6</div><br />
           <div className="contenedorLoQuiero"><div className="capsulaQuiero"><a>Lo quiero</a></div></div><br />
@@ -83,8 +83,8 @@ function InicioCompo() {
             <div className="normal">Internet</div><div className="negrita">Fibra</div> <br />
           </div>
           <div className="primeraFila"><div className="negrita">250 Megas</div></div><br/>
-          <div className="primeraFila"><div className="precio">$25.20/mes</div></div><br/>
-          <div className="capsulaPlan"><div className="capsulaColor">25% dcto.</div><div className="capsulaSinColor"> Oferta Online</div></div><br/>
+          <div className="primeraFila"><div className="precio">$25.20/</div><div className="mes">mes</div></div><br/>
+          <img className="descuentoimg" src="./img/Planes/descuento.png"/>
           <div className="primeraFila">Por 4 meses, luego<div className="negritaPeque">$33.60/mes</div><br /></div><br />
           <div className="primeraFila"><img src="./img/Planes/iconoPlanes1y3.png" />Router 4 antenas WI-FI 6</div><br />
           <div className="contenedorLoQuiero"><div className="capsulaQuiero"><a>Lo quiero</a></div></div><br />
@@ -103,8 +103,8 @@ function InicioCompo() {
             <div className="normal">Internet</div><div className="negrita">Fibra</div> <br />
           </div>
           <div className="primeraFila"><div className="negrita">275 Megas</div></div><br/>
-          <div className="primeraFila"><div className="precio">$26.25/mes</div></div><br/>
-          <div className="capsulaPlan"><div className="capsulaColor">25% dcto.</div><div className="capsulaSinColor"> Oferta Online</div></div><br/>
+          <div className="primeraFila"><div className="precio">$26.25/</div><div className="mes">mes</div></div><br/>
+          <img className="descuentoimg" src="./img/Planes/descuento.png"/>
           <div className="primeraFila">Por 4 meses, luego<div className="negritaPeque">$35.00/mes</div><br /></div><br />
           <div className="primeraFila"><img src="./img/Planes/iconoPlanes1y3.png" />Router 4 antenas WI-FI 6</div><br />
           <div className="contenedorLoQuiero"><div className="capsulaQuiero"><a>Lo quiero</a></div></div><br />
@@ -123,8 +123,8 @@ function InicioCompo() {
             <div className="normal">Internet</div><div className="negrita">Fibra</div> <br />
           </div>
           <div className="primeraFila"><div className="negrita">350 Megas</div></div><br/>
-          <div className="primeraFila"><div className="precio">$31.50/mes</div></div><br/>
-          <div className="capsulaPlan"><div className="capsulaColor">25% dcto.</div><div className="capsulaSinColor"> Oferta Online</div></div><br/>
+          <div className="primeraFila"><div className="precio">$31.50/</div><div className="mes">mes</div></div><br/>
+          <img className="descuentoimg" src="./img/Planes/descuento.png"/>
           <div className="primeraFila">Por 4 meses, luego<div className="negritaPeque">$42.00/mes</div><br /></div><br />
           <div className="primeraFila"><img src="./img/Planes/iconoPlanes1y3.png" />Router 4 antenas WI-FI 6</div><br />
           <div className="contenedorLoQuiero"><div className="capsulaQuiero"><a>Lo quiero</a></div></div><br />

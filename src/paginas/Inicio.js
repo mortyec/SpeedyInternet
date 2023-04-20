@@ -5,6 +5,7 @@ import Formulario from '../componentes/Formulario';
 import Banners from '../componentes/Banners';
 import ContactoPopUP from '../componentes/ContactoPopUP';
 import Footer from '../componentes/Footer';
+import Blog from '../componentes/Blog';
 
 function Inicio() {
     return (
@@ -14,6 +15,7 @@ function Inicio() {
             <InicioCompo/>
             <Formulario/>
             <Banners/>
+            <Blog/>
             <Footer/>
         </>
     )

@@ -5,9 +5,9 @@ function InicioCompDual() {
       <>
         <div className="full-width-imageDual">
           <div className="izquierdaBannerDual">
-            <div className="imagenIzquierdaComtenedorDual">
+            {/* <div className="imagenIzquierdaComtenedorDual">
               <img src="./img/Inicio/icoWifi.png" />
-            </div>
+            </div> */}
             <div className="textoContenedorIzquierdaDual">
               <div className="textoIz1Dual">
                 <p>Speedy Fibra</p>
@@ -31,23 +31,23 @@ function InicioCompDual() {
           </div>
         </div>
         <div class="link-container">
-          <a href="./#" class="link medios dos">
-            <img src="./img/Inicio/internethogaractiveNegro.svg" alt="Imagen 1" />
-            Internet Hogar
-          </a>
-          <a href="./corporativo" class="link medios tres">
-            <img src="./img/Inicio/internet2.svg" alt="Imagen 2" />
-           Internet Corporativo
-          </a>
-          <a href="./streaming" class="link medios tres">
-            <img src="./img/Inicio/internet4.png" alt="Imagen 3" />
-            Streaming
-          </a>
-          <a href="./dual" class="link ultimo color">
-            <img src="./img/Inicio/internet3Azul.png" alt="Imagen 4" />
-            Dual Pack
-          </a>
-        </div>
+        <a href="./#" class="link medios tres">
+          <img src="./img/Inicio/internethogaractiveNegro.png" alt="Imagen 1" />
+          Internet Hogar
+        </a>
+        <a href="./streaming" class="link medios tres">
+          <img src="./img/Inicio/internet4.png" alt="Imagen 3" />
+          Speedy Tv
+        </a>
+        <a href="./dual" class="link medios">
+          <img src="./img/Inicio/internet3Azul.png" alt="Imagen 4" />
+          Dual Pack
+        </a>
+        <a href="./corporativo" class="link ultimo">
+          <img src="./img/Inicio/internet2.png" alt="Imagen 2" />
+         Internet Corporativo
+        </a>
+      </div>
         <div className="texto arriba">
           Internet Hogar Fibra Óptica
         </div>

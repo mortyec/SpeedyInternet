@@ -94,7 +94,7 @@ function Banners() {
                     </div>
                 </div>
                 <div className='ultimoImg'>
-                    <img src='./img/Banners/imgUltima.png' />
+                    <img src='./img/Banners/MapaEcuadorBanner.jpg' />
                 </div>
             </div>
         </>

@@ -12,6 +12,6 @@ function ContactoPopUP() {
             </div>
         </>
     );
-}
+}    
 
 export default ContactoPopUP;

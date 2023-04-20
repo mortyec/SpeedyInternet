@@ -5,9 +5,9 @@ function InicioCompCorporativo() {
       <>
         <div className="full-width-imageCorporativo">
           <div className="izquierdaBannerCorporativo">
-            <div className="imagenIzquierdaComtenedorCorporativo">
+            {/* <div className="imagenIzquierdaComtenedorCorporativo">
               <img src="./img/Inicio/icoWifi.png" />
-            </div>
+            </div> */}
             <div className="textoContenedorIzquierdaCorporativo">
               <div className="textoIz1Corporativo">
                 <p>Speedy Fibra</p>
@@ -33,23 +33,23 @@ function InicioCompCorporativo() {
           </div>
         </div>
         <div class="link-container">
-          <a href="./#" class="link medios dos">
-            <img src="./img/Inicio/internethogaractiveNegro.svg" alt="Imagen 1" />
-            Internet Hogar
-          </a>
-          <a href="./corporativo" class="link medios">
-            <img src="./img/Inicio/internet2Azul.svg" alt="Imagen 2" />
-           Internet Corporativo
-          </a>
-          <a href="./streaming" class="link medios tres">
-            <img src="./img/Inicio/internet4.png" alt="Imagen 3" />
-            Streaming
-          </a>
-          <a href="./dual" class="link ultimo">
-            <img src="./img/Inicio/internet3.png" alt="Imagen 4" />
-            Dual Pack
-          </a>
-        </div>
+        <a href="./#" class="link medios tres">
+          <img src="./img/Inicio/internethogaractiveNegro.png" alt="Imagen 1" />
+          Internet Hogar
+        </a>
+        <a href="./streaming" class="link medios tres">
+          <img src="./img/Inicio/internet4.png" alt="Imagen 3" />
+          Speedy Tv
+        </a>
+        <a href="./dual" class="link medios dos">
+          <img src="./img/Inicio/internet3.png" alt="Imagen 4" />
+          Dual Pack
+        </a>
+        <a href="./corporativo" class="link">
+          <img src="./img/Inicio/internet2Azul.png" alt="Imagen 2" />
+         Internet Corporativo
+        </a>
+      </div>
         <div className="texto arriba">
           Internet Hogar Fibra Óptica
         </div>
