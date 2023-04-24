@@ -1196,13 +1196,48 @@ button[type="submit"]:hover {
   width:34px;
   font-size:14px
 }
+
+
+.location{
+  width: 8%;
+  height: auto;
+}
+
+.social-icons a.linkedin{
+  background-image: url(../public/img/Footer/In.png) !important;
+  background-repeat: no-repeat !important; 
+  background-position: center;
+  background-size: cover;
+}
+
+.social-icons a.dribbble{
+  background-image: url(../public/img/Footer/Instagram.png) !important;
+  background-repeat: no-repeat !important; 
+  background-position: center;
+  background-size: cover;
+}
+
+.social-icons a.facebook{
+  background-image: url(../public/img/Footer/FB.png) !important;
+  background-repeat: no-repeat !important; 
+  background-position: center;
+  background-size: cover;
+}
+
+.social-icons a.twitter{
+  background-image: url(../public/img/Footer/Tiktok.png) !important;
+  background-repeat: no-repeat !important; 
+  background-position: center;
+  background-size: cover;
+}
+
 .social-icons a.facebook:hover
 {
   background-color:#3b5998
 }
 .social-icons a.twitter:hover
 {
-  background-color:#00aced
+  background-color:#000
 }
 .social-icons a.linkedin:hover
 {
@@ -1255,6 +1290,12 @@ button[type="submit"]:hover {
 .col-md-3 {
   flex-basis: 25%;
   max-width: 25%;
+}
+
+.col-md-2 {
+  flex-basis: 18%;
+  max-width: 20%;
+  padding-right: 1vw;
 }
 
 .col-md-8 {
@@ -1520,4 +1561,128 @@ button[type="submit"]:hover {
 	 opacity: 1;
 }
 
+.example-3 .wrapper {
+  background:  url(../public/img/Blogs/blog2.jpg) 20% 1% / cover no-repeat;
+}
+ .example-3 .wrapper:hover .menu-content span {
+	 transform: translate(-50%, -10px);
+	 opacity: 1;
+}
+ .example-3 .header {
+	 color: #fff;
+	 padding: 1em;
+}
+ .example-3 .header::before, .example-2 .header::after {
+	 content: '';
+	 display: table;
+}
+ .example-3 .header::after {
+	 clear: both;
+}
+.example-3 .date {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ba3b6a;
+  color: #fff;
+  padding: 0.8em;
+}
+
+.example-3 .date span {
+  display: block;
+  text-align: center;
+}
+.example-3 .date .day {
+  font-weight: 700;
+  font-size: 24px;
+  text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.18);
+}
+.example-3 .date .month {
+  text-transform: uppercase;
+}
+.example-3 .date .month, .example-1 .date .year {
+  font-size: 12px;
+}
+
+ .example-3 .menu-content {
+	 float: right;
+}
+ .example-3 .menu-content li {
+	 margin: 0 5px;
+	 position: relative;
+}
+ .example-3 .menu-content span {
+	 transition: all 0.3s;
+	 opacity: 0;
+}
+ .example-3 .data {
+	 color: #fff;
+	 transform: translateY(calc(20px + 4em));
+}
+ .example-3 .title a {
+	 color: #fff;
+}
+ .example-3 .button {
+	 display: block;
+	 width: 100px;
+	 margin: 2em auto 1em;
+	 text-align: center;
+	 font-size: 12px;
+	 color: #fff;
+	 line-height: 1;
+	 position: relative;
+	 font-weight: 700;
+}
+ .example-3 .button::after {
+	 content: '\2192';
+	 opacity: 0;
+	 position: absolute;
+	 right: 0;
+	 top: 50%;
+	 transform: translate(0, -50%);
+	 transition: all 0.3s;
+}
+ .example-3 .button:hover::after {
+	 transform: translate(5px, -50%);
+	 opacity: 1;
+}
+
+.logoFooter{
+  width: 10vw;
+  height: auto;
+}
+
+/*Replace Location Image*/
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+.image-container img{
+  width: 14%;
+  height: auto;
+}
+
+.image-container.dos img{
+  width: 21%;
+  height: auto;
+}
+
+.hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: transparent; /* establece el fondo transparente */
+  transition: opacity 0.5s;
+}
+
+.image-container:hover .hover-image {
+  opacity: 1;
+}
+
+.mas{
+  display: flex;
+}
+
+/**/
 /**/

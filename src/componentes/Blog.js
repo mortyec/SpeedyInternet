@@ -11,7 +11,7 @@ function Blog() {
             <br />
             <div className='contenedorBlog'>
                 <div class="rowBlog">
-                    <div class="example-1 card">
+                    {/* <div class="example-1 card">
                         <div class="wrapper">
                             <div class="date">
                                 <span class="day">20</span>
@@ -20,7 +20,7 @@ function Blog() {
                             </div>
                             <div class="data">
                                 <div class="content">
-                                <span class="author">Speedy</span>
+                                    <span class="author">Speedy</span>
                                     <h1 class="title"><a href="#">Speedy inauguró su Centro de Monitoreo y Gestión de Atención al Cliente.</a></h1>
                                     <p class="text">Speedy, la empresa proveedora de Internet líder en el centro del país, inauguró en febrero</p>
                                 </div>
@@ -43,8 +43,40 @@ function Blog() {
                                 </div>
                             </div>
                         </div>
+                    </div> */}
+                    <div class="example-3 card">
+                        <div class="wrapper">
+                            <div class="date">
+                                <span class="day">20</span>
+                                <span class="month">Abr</span>
+                                <span class="year">2023</span>
+                            </div>
+                            <div class="data">
+                                <div class="content">
+                                <span class="author">Speedy</span>
+                                    <h1 class="title"><a href="#">Speedy inauguró su Centro de Monitoreo y Gestión de Atención al Cliente.</a></h1>
+                                    <p class="text">Speedy, la empresa proveedora de Internet líder en el centro del país, inauguró en febrero</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="example-1 card">
+                    <div class="example-3 card">
+                        <div class="wrapper">
+                            <div class="date">
+                                <span class="day">20</span>
+                                <span class="month">Abr</span>
+                                <span class="year">2023</span>
+                            </div>
+                            <div class="data">
+                                <div class="content">
+                                <span class="author">Speedy</span>
+                                    <h1 class="title"><a href="#">Speedy inauguró su Centro de Monitoreo y Gestión de Atención al Cliente.</a></h1>
+                                    <p class="text">Speedy, la empresa proveedora de Internet líder en el centro del país, inauguró en febrero</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="example-3 card">
                         <div class="wrapper">
                             <div class="date">
                                 <span class="day">20</span>
